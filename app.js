@@ -46,7 +46,7 @@ if (process.env.NODE_ENV === 'production') {
 bot.on('message', (msg) => {
   const chatId = msg.chat.id;
 
-  //get the keyword searched for and match via the data.
+  //get the keyword searc for and match via the data.
 
   const text = msg.text;
 
